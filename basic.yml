@@ -1,0 +1,24 @@
+class:
+  - Name: multicloud
+    cloudname:
+      aws
+        iam
+        roles
+        policies
+
+      azure
+        entra id
+        module
+      gcp
+  - Name: devops
+    tools:
+      jenkins
+      k8s
+      docker
+      anisible
+  - Name: student
+    courses:
+        -devops
+        -cloud
+        -python
+              
